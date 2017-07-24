@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiT.MessyColor", "AiT.MessyColor\AiT.MessyColor\AiT.MessyColor.csproj", "{5D308B75-6009-450E-93D2-F182E6BDBFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiT.MessyColor.Droid", "AiT.MessyColor\AiT.MessyColor.Droid\AiT.MessyColor.Droid.csproj", "{F80201AB-CD57-4851-B147-0D5B74C58267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D308B75-6009-450E-93D2-F182E6BDBFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D308B75-6009-450E-93D2-F182E6BDBFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D308B75-6009-450E-93D2-F182E6BDBFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D308B75-6009-450E-93D2-F182E6BDBFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80201AB-CD57-4851-B147-0D5B74C58267}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
