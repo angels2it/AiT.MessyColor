@@ -5,7 +5,13 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="AiT.MessyColor.Views.MainPage"
              Title="MainPage">
-  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
+  <Grid>
+      <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"></RowDefinition>
+          <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <StackLayout>
+          <Label Text="Score: 1"></Label>
+      </StackLayout>
+  </Grid>
 </ContentPage>
